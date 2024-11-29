@@ -1,0 +1,12 @@
+# rqt_bag
+
+ros2でbagファイルを解析するとき
+
+rosbagとmetadata.ymlが必要。
+metadata.ymlがない場合は以下のコマンドで作成
+
+`ros2 bag reindex "rosbag格納フォルダ名"`
+
+これで準備ok
+以下のコマンドで起動する
+`ros2 run rqt_bag rqt_bag`
